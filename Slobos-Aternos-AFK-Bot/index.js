@@ -1,9 +1,9 @@
 
 const mineflayer = require("mineflayer");
 
-const HOST = process.env.MC_HOST;
-const PORT = Number(process.env.MC_PORT || 25565);
-const USERNAME = process.env.MC_USERNAME || "ServerTestBot";
+const HOST = "valosmp-3h7T.aternos.me";
+const PORT = Number(process.env.MC_PORT || 25945);
+const USERNAME = process.env.MC_USERNAME || "CHITA_HI_KEHDE";
 const VERSION = process.env.MC_VERSION || false;
 
 if (!HOST) {
